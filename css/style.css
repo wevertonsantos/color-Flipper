@@ -3,13 +3,14 @@ body{
 }
 
 header{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
     width: 100%;
     text-align: center;
-    box-shadow: 0 1px 10px grey;
+    box-shadow: 0 3px 10px grey;
 }
 
 header h1{
@@ -28,7 +29,7 @@ section h1{
     color: #fff;
     font-size: 2.5em;
     height: 50px;
-    width: 450px;
+    width: 500px;
     background-color: rgb(32, 32, 33);
     border-radius: 10px 10px 10px 10px;
 }
@@ -43,3 +44,12 @@ section button{
     width: 120px;
 }
 
+section button:hover{
+    background-color: rgb(32, 32, 33);
+    color: white;
+    border: none;
+}
+
+span{
+    color: blue;
+}
