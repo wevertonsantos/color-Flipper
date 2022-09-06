@@ -1,3 +1,45 @@
 body{
     font-family: 'Source Code Pro', monospace; margin: 0; padding: 0; box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 10px grey;
+}
+
+header h1{
+    text-shadow: 2px 2px grey;
+}
+
+main{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+section h1{
+    color: #fff;
+    font-size: 2.5em;
+    height: 50px;
+    width: 450px;
+    background-color: rgb(32, 32, 33);
+    border-radius: 10px 10px 10px 10px;
+}
+
+section button{
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0);
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    width: 120px;
+}
+
