@@ -1,28 +1,28 @@
+let arrayColors = [
+    0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'
+]
 let btn = document.querySelector('.btn')
 let mostrarColor = document.getElementById('printColor')
-let randomColor = color = [
-    gerar_cor_hexa(),
-]
-
 
 btn.addEventListener('click', function(){
-    document.body.style.backgroundColor = randomColor
-    mostrarColor.innerHTML = gerar_cor_hexa()
+    let colors = '#';
+
+    for(let i = 0;i < 6; i++)
+    colors += arrayColors[gerarCorHexa()]
+
+    mostrarColor.textContent = colors 
+    document.body.style.backgroundColor = colors
 })
 
-function gerar_cor_hexa(){
-    return ' : #' + parseInt((Math.random() * 0xFFFFFF))
-    .toString(16)
-    .padStart(6,'0')
+function gerarCorHexa(){
+    return Math.floor(Math.random() * arrayColors.length)
 }
 
 // Utilizado no projeto
 
-// arrays
 // document.getElementById()
 // document.querySelector()
 // addEventListener()
 // document.body.style.backgroundColor
 // Math.floor()
 // Math.random()
-// array.length
