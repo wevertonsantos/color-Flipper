@@ -1,5 +1,5 @@
 body{
-    font-family: 'Source Code Pro', monospace; margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace; margin: 0; padding: 0; box-sizing: border-box; background-color: #f1f5f8;
 }
 
 header{
@@ -26,10 +26,11 @@ main{
 }
 
 section h1{
+    display: flex;
     color: #fff;
     font-size: 2.5em;
     height: 50px;
-    width: 500px;
+    width: 100%;
     background-color: rgb(32, 32, 33);
     border-radius: 10px 10px 10px 10px;
 }
@@ -48,8 +49,4 @@ section button:hover{
     background-color: rgb(32, 32, 33);
     color: white;
     border: none;
-}
-
-span{
-    color: blue;
 }
