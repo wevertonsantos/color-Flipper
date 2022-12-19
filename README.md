@@ -1,6 +1,6 @@
 <h1> Trocador de cores utilizando JS puro </h1>
 
-<h3> Link do linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6974104298645278720/ </h3>
+<h3> https://wevertonsantos.github.io/color-Flipper/ </h3>
 
 <h1> Utilizado no projeto </h1>
 <ul>
